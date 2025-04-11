@@ -2,8 +2,18 @@
 
 #to check data type
 print(type(50))     output>>int
+#Note:you can declare string varible with single or double quotes
 #variables
 a=50   #data type is assigned auto unlike in c++ where int a=50;
+#to convert to float
+x = 5
+x = float(x)
+#to print length of string use len()
+#sets, tuples(they are all data types)
+st={3,4,5}
+tup=(1,2,3) #unlike lists, tuples are immutable
+#to define global varible use keyword global(can use even inside function), eg:
+global x #you can use it to change value of global variable inside the function itself
 #lists
 x=[2,3,4,5]
 print(x) #prints the whole list(unlike in c++ where you'll have to run a loop for it to print)
@@ -12,6 +22,7 @@ x[0] #to access
 #slicing in py means you can handle both an element or sublist eg:
 x[0:2] #where 2 is not included
 x[:-1] #means from 0th index to second last element
+#keyword to check if a word is present in string:in if 'free' in x:
 #Dictionaries
 x={'hello':42} #to print value use x['hello']
 x['wello']=22 #to add a new element
@@ -45,3 +56,12 @@ hello("beautiful") #function call
 Also to print the above statement in c++, we'll write cout<<"hello"<<object<<"world"; """
 #classes(a good way to describe class is a way to define your own data type(other than the integrated ones) and even your own methods)
 class name:
+
+#a few w3sschool teachings:   (also, w3sschool, geeksforgeeks goated fr)
+#Return the string without any whitespace at the beginning or the end.
+txt = " Hello World "
+x = txt.strip()
+#to replace a character with another txt.replace('x','j')
+
+
+
